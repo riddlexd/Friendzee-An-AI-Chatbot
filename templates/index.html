@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="../static/css/style.css"> 
+<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+<div id="wholebox">
+<div id="leftbox">
+<div id="left-insidebox">
+<div id="image_section"><img src="../static/image/bot4.jpg"></div>
+<div id = "chatbox">
+	<div id="botTextp"><p id = "botText"><span>Hi! A sweet friendship refreshes the Soul. Would You BE My Friend? </span></p></div>
+</div>
+<div id = "userInput">
+<div class="sendmsg" id="text"><input id ="textInput" type ="text" name="msg" placeholder="Message"></div>
+<div class="sendmsg" id ="submit"><input id = "buttonInput" type = "submit" value="Send"></div>
+
+</div>
+<script>
+function getBotResponse(){
+var rawText = $("#textInput").val();
+var userHtml = '<div id="jsuserText" class = "userText"><span>' + rawText + '</span></div>';
+$("#textInput").val("");
+$("#botTextp").append(userHtml);
+document.getElementById('userInput').scrollIntoView({block:'start',behaviour:'smooth'});
+$.get("/get", {msg:rawText }).done(function(data) {
+var botHtml = '<div id="jsbotText" class ="botText"><span>' + data + '</span></div>';
+$("#botTextp").append(botHtml);
+document.getElementById('userInput').scrollIntoView({block : 'start',behaviour:'smooth'});
+});
+}
+$("#textInput").keypress(function(e) {
+if(e.which == 13) {
+getBotResponse();
+}
+});
+$("#buttonInput").click(function() {
+getBotResponse();
+})
+</script>
+</div>
+	</div>
+<div id="sidebox">
+	<h1>Life Is More Beautiful Beyond Your Imagination</h1>
+	</p>
+</div>
+	</div>
+</body>
+</html>
