@@ -38,8 +38,8 @@
         },
 
         {"tag": "sad",
-         "patterns": ["I'm sad", "it’s making me sad" , "I can't meet my mom anymore, It's make me sad" , "I want to meet her again,But I can't.. It makes me sad","what is written for me is sadness ”],
-         "responses": ["Don't be sad ", " you can't meet her, but you can pray for her" , "No! Only sadness isn’t for you,give yourself some scope"],
+         "patterns": ["I'm sad", "its making me sad" , "I cant meet my mom anymore", "Its make me sad" , "I want to meet her again,But I cant.. It makes me sad","what is written for me is sadness ”],
+         "responses": ["Dont be sad ", " you cant meet her, but you can pray for her" , "No! Only sadness isnt for you,give yourself some scope"],
          "context_set": ""
         },
         {"tag": "abuse",
@@ -67,7 +67,7 @@
         },
 
         {"tag": "friends",
-         "patterns": ["I Don't have any friend "," I have no friend  to understand me","All my friends left me","My friend is dead, I Can't take this","My friend cheated me in business"],
+         "patterns": ["I Dont have any friend "," I have no friend  to understand me","All my friends left me","My friend is dead, I Can't take this","My friend cheated me in business"],
          "responses": ["we can be friends too","I'm here to suppot you "," Your family is your best friend "," You can live a good life and do some great wrok in Memorial of your friend","He will have to repay and You can start again"],
          "context_set": ""
         },
