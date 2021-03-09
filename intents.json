@@ -10,24 +10,74 @@
          "context_set": ""
         },
         {"tag": "age",
-         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
-         "responses": ["I am 18 years old!", "18 years young!"],
+         "patterns": ["how old", "how old are you", "what is your age", "how old are you", "age?"],
+         "responses": ["I am always young!", "Forever 18!"],
          "context_set": ""
         },
         {"tag": "name",
          "patterns": ["what is your name", "what should I call you", "whats your name?"],
-         "responses": ["You can call me Tim.", "I'm Tim!", "I'm Tim aka Tech With Tim."],
+         "responses": ["You can call me Friendzee.", "I'm F!", "I'm your Friendzee."],
          "context_set": ""
         },
-        {"tag": "shop",
-         "patterns": ["Id like to buy something", "whats on the menu", "what do you reccommend?", "could i get something to eat"],
-         "responses": ["We sell chocolate chip cookies for $2!", "Cookies are on the menu!"],
+        {"tag": "feelings",
+         "patterns": ["I am not feeling good", "I am Sad", "I am so down", "Help me", "Chear me up", "I am not feeling good"],
+         "responses": ["I am here!", "No worries!"],
          "context_set": ""
         },
-        {"tag": "hours",
-         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
-         "responses": ["We are open 7am-4pm Monday-Friday!"],
+
+        {"tag": "cry",
+         "patterns": ["I want to cry", "I cant stop crying", "I want to cry so loud", "It makes me crying ", " I alawys cry for my mom"],
+         "responses": ["Tell me.. Why are you crying? "," You can cry inf font of me", "Stp crying now,Talk to me"],
          "context_set": ""
+        },
+
+        {"tag": "bully",
+         "patterns": ["I Don't want to go to play,they bully me for being short", "They bully me for getting poor marks", " They bully me,  calls me baby elephant ","I Don't want to talk to anyone, everyone bullies me"," My teachers bully me"],
+         "responses": ["Why they bully you?","what do they say when bullying?" , "Who does bully you? " ],
+         "context_set": ""
+        },
+
+        {"tag": "sad",
+         "patterns": ["Im sad", "its making me sad" , "I cant meet my mom anymore, Its make me sad" , "I want to meet her again,But I can't.. It makes me sad","what is written for me is sadness ”],
+         "responses": ["Dont be sad ", " you cant meet her, but you can pray for her" , "No! Only sadness isnt for you,give yourself some scope"],
+         "context_set": ""
+        },
+        {"tag": "abuse",
+         "patterns": ["I have an abusive family","My partner is abusesive","My husband abused my trust","I have problem with drug abuse","I was abused when I was a child”],
+         "responses": ["I can give you support to raise your voice Against abuse","Tell me about your family abuses","He abused your trust It's his loss not yours","We can solve your drug abuse problem together ", "You can tell me about your abusers to me" ],
+         "context_set": ""
+        },
+
+         {"tag": "Life",
+         "patterns": ["There is no purpose of my life","I want to end my life","Life seems so meaningless to me","I will never be happy in my life","I Don't want my life withou my mom","I wanted a peaceful life always"],
+         "responses": ["every life has a purpose "," Ending your life Isn't the solution","You can make your life meaingfull","you can make you made m proud","you can achieve peace,I can help in that"],
+         "context_set": ""
+        },
+
+         {"tag": "result",
+         "patterns": ["My result is so bad","I am not happy with my result", "I cant make my parents proud with my Result", "I have always poor grades in result" ],
+         "responses": ["Result is not everything","you can work hard to do better","you will make your parents proud one day with our result ", "Grades are not so important dear" ],
+         "context_set": ""
+        },
+
+         {"tag": "sick",
+         "patterns": ["I'm just sick of myself","I can't bear my sickness anymore "," I'm sick and I'm burden of my family "," I can't tolerate the pain,why I'm so sick"],
+         "responses": ["Be brave","You will survive this days","You are not burden,your parents are waiting for your healing "," Better days are coming " ],
+         "context_set": ""
+        },
+
+        {"tag": "friends",
+         "patterns": ["I Don't have any friend "," I have no friend  to understand me","All my friends left me","My friend is dead, I Can't take this","My friend cheated me in business"],
+         "responses": ["we can be friends too","I'm here to suppot you "," Your family is your best friend "," You can live a good life and do some great wrok in Memorial of your friend","He will have to repay and You can start again"],
+         "context_set": ""
+        },
+
+        {"tag": "cheat",
+         "patterns": ["He cheated on me","I was cheated by my husband","I trusted him most, but he cheated ", " I cheated in examination" , "I cheated on my wife she loved me a lot"],
+         "responses": ["who cheates It's his loss”,You can lead a good life without your husband","You cheated, and Now you are feeling bad, you are a good soul","She will give you a chance to fix it "],
+         "context_set": ""
+        },
+
         }
    ]
 }
